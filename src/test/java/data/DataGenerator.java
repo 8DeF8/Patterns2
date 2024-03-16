@@ -28,7 +28,7 @@ public class DataGenerator {
                 .spec(requestSpec)
                 .body(user)
                 .when()
-                .post("/api/system/user")
+                .post("/api/system/users")
                 .then()
                 .statusCode(200);
         return user;
